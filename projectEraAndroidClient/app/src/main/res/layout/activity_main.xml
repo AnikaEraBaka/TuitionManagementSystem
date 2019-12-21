@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#f9ff85">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to tution management system"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-medium"/>
+
+    <Button
+        android:id="@+id/logInAsTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Log in as teacher  "
+        android:textAllCaps="false"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="30dp"
+        android:background="#f77c7c"/>
+
+    <Button
+        android:id="@+id/logInAsStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Log in as student   "
+        android:textAllCaps="false"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="10dp"
+        android:background="#f77c7c" />
+
+    <Button
+        android:id="@+id/signUpAsTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Sign up as teacher "
+        android:textAllCaps="false"
+        android:layout_marginLeft="140dp"
+        android:background="#f77c7c"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/signUpAsStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Sign up as student "
+        android:textAllCaps="false"
+        android:layout_marginLeft="140dp"
+        android:background="#f77c7c"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="170dp"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Info  "
+        android:background="#f9ffaa" />
+</LinearLayout>

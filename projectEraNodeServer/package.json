@@ -1,0 +1,16 @@
+{
+  "name": "projecteranodeserver",
+  "version": "1.0.0",
+  "description": "tutionManagementAppServer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node"
+  },
+  "author": "116",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.3.2",
+    "mongoose": "^5.7.1"
+  }
+}
